@@ -33,7 +33,7 @@ config.MODEL.out_channel=136+3+4    # output vector    68 points , 3 headpose ,4
 
 #### 'ShuffleNetV2_1.0' 'ShuffleNetV2_0.5' or MobileNetv2,
 config.MODEL.net_structure='ShuffleNetV2_0.75'
-config.MODEL.pretrained_model=None
+config.MODEL.pretrained_model='./model/keypoints/variables/variables'
 config.DATA = edict()
 
 config.DATA.root_path=''
